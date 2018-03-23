@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+message User{
+    uint32 user_id = 1; //userId
+
+    string name = 2;
+
+    string email = 3;
+
+    string password = 4;
+
+    message Address{
+        string street = 1;
+        string city = 2;
+        string state = 3;
+    }
+
+}
+

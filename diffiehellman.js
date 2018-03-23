@@ -12,4 +12,4 @@ const kalpanakey = kalpana.generateKeys()
 const princyaSecret = princya.computeSecret(kalpanakey)
 const kalpanaSecret = kalpana.computeSecret(princyakey)
 
-console.log(assert.strictEqual(princyaSecret.toString('hex'),kalpanaSecret.toString('hex'))
+console.log(assert.strictEqual(princyaSecret.toString('hex'),kalpanaSecret.toString('hex')))
