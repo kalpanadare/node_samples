@@ -11,15 +11,12 @@ var postData = querystring.stringify({
     msg: 'hello world'
 });
 
-let userValues = [{
+let userValues = {
     userId : 1,
     name: 'Princya',
     email: 'princya.esther@gmail.com',
     password: 'princya'
-},
-    {
-
-    }]
+}
 let value = user.create(userValues)
 let encodedValue = user.encode(value).finish()
 let decodedValue = user.decode(encodedValue)
