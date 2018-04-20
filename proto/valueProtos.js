@@ -20,9 +20,10 @@ let userValues = {
 let value = user.create(userValues)
 let encodedValue = user.encode(value).finish()
 let decodedValue = user.decode(encodedValue)
-console.log(value.email)
+console.log(typeof value.name)
 console.log("decoded Value :"+decodedValue.email)
 
+/*
 var options = {
     hostname: 'localhost',
     port: 8081,
@@ -54,4 +55,4 @@ req.on('error', function (e) {
 });
 
 req.write(value.toString())
-req.end();
+req.end();*/

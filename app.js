@@ -2,11 +2,11 @@ const abc = require('./log')
 const {log1} = require('./log')
 const os = require('os')
 const fs = require('fs')
-
+/*
 console.log("Learning nodejs");
 
 abc.log("I am here");
-log1('tet','test')
+log1('tet','test')*/
 //console.log(os.cpus());
 
 

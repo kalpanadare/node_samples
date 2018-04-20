@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/kalpanadare/node_samples#readme",
   "dependencies": {
-    "https": "^1.0.0"
-  }
+    "chai": "^4.1.2",
+    "https": "^1.0.0",
+    "istanbul": "^0.4.5",
+    "loopback-cli": "^4.2.0",
+    "sinon": "^4.5.0",
+    "zmq": "^2.15.3"
+  },
+  "test-unit": "istanbul cover _mocha $(find ./lib -name \"*.spec.js\" -not -path \"./node_modules/*\")"
 }
